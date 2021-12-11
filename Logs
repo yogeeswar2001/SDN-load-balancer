@@ -1,0 +1,54 @@
+>> POX
+
+	https://github.com/noxrepo/pox
+	https://github.com/noxrepo/pox/blob/gar-experimental/pox/misc/ip_loadbalancer.py
+	https://noxrepo.github.io/pox-doc/html/
+	
+	install: clone/donwload repo
+	
+	./pox.py log.level --DEBUG filename
+
+>> MININET
+
+	https://github.com/mininet/mininet/wiki/Introduction-to-mininet
+	
+	install: sudo apt install mininet
+	
+>> MINIEDIT
+	
+	install: https://github.com/mininet/mininet
+	
+	1. go to example folder inside mininet in terminal
+	2. run the following cmd
+		sudo python miniedit.py
+	
+	
+>> HOW TO RUN CODE WITH MININET
+
+	1. ./pox.py log.level --DEBUG filename.py --ip=10.0.1.1 --servers=ip1,ip2
+	2. sudo mn --topo single,6 --mac --arp --controller=remote
+	3. xterm h1 h2 h3 ....
+	4. from xterm run the servers
+		python -m SimpleHTTPServer 80
+	5. do load test from any one host
+		ab -n 100 -c 10 -g test.csv http://10.0.1.1/
+
+>> HOW TO RUN CODE WITH MINIEDIT
+	
+	1. ./pox.py log.level --DEBUG filename.py --ip=10.0.1.1 --servers=ip1,ip2
+	2. sudo python miniedit.py
+	3. create topology in miniedit
+	4. enable cli ( goto edit in toolbar/preferences)
+	5. run the topology by clicking run in toolbar
+	5. POX CONTROLLER COMMANDS : ( open 4 terminals for 4 different algo's)
+		5.1 rand : ./pox.py log.level --DEBUG rand --ip=10.1.0.0 --servers=10.1.1.1,10.1.1.2,10.1.1.3
+		5.2 rounds :./pox.py log.level --DEBUG round --ip=10.1.0.0 --servers=10.1.2.1,10.1.2.2,10.1.2.3 openflow.of_01 --port=6634
+		5.3 round :./pox.py log.level --DEBUG least --ip=10.1.0.0 --servers=10.1.3.1,10.1.3.2,10.1.3.3 openflow.of_01 --port=6635
+		5.4 W Round : ./pox.py log.level --DEBUG wrr --ip=10.1.0.0 --servers=10.1.4.1:1,10.1.4.2:2,10.1.4.3:3 openflow.of_01 --port=6636
+	6. Single topo:
+		./pox.py log.level --DEBUG rand --ip=10.0.1.1 --servers=10.0.0.1,10.0.0.2,10.0.0.3,10.0.0.4,10.0.0.5,10.0.0.6,10.0.0.7,10.0.0.8,10.0.0.9,10.0.0.10,10.0.0.11,10.0.0.12
+
+
+>> FURTHER READINGS
+	1. apache bench
+	2. gnuplot
