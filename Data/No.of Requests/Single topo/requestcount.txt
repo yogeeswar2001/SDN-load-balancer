@@ -1,0 +1,92 @@
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 10.0.1.1 (be patient)
+
+
+Server Software:        SimpleHTTP/0.6
+Server Hostname:        10.0.1.1
+Server Port:            80
+
+Document Path:          /test_100kb.txt/
+Document Length:        195 bytes
+
+Concurrency Level:      10
+Time taken for tests:   1.316 seconds
+Complete requests:      400
+Failed requests:        0
+Non-2xx responses:      400
+Total transferred:      138000 bytes
+HTML transferred:       78000 bytes
+Requests per second:    304.01 [#/sec] (mean)
+Time per request:       32.893 [ms] (mean)
+Time per request:       3.289 [ms] (mean, across all concurrent requests)
+Transfer rate:          102.43 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        9   24   4.6     24      42
+Processing:     0    8   7.5      7      25
+Waiting:        0    7   7.2      7      25
+Total:         13   32   9.2     31      57
+
+Percentage of the requests served within a certain time (ms)
+  50%     31
+  66%     37
+  75%     40
+  80%     41
+  90%     45
+  95%     48
+  98%     50
+  99%     52
+ 100%     57 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 10.0.1.1 (be patient)
+
+
+Server Software:        SimpleHTTP/0.6
+Server Hostname:        10.0.1.1
+Server Port:            80
+
+Document Path:          /test_100kb.txt/
+Document Length:        195 bytes
+
+Concurrency Level:      10
+Time taken for tests:   2.998 seconds
+Complete requests:      800
+Failed requests:        0
+Non-2xx responses:      800
+Total transferred:      276000 bytes
+HTML transferred:       156000 bytes
+Requests per second:    266.85 [#/sec] (mean)
+Time per request:       37.475 [ms] (mean)
+Time per request:       3.747 [ms] (mean, across all concurrent requests)
+Transfer rate:          89.90 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       11   27   8.5     25      70
+Processing:     0   10   9.5     10      54
+Waiting:        0    9   9.2      9      54
+Total:         15   37  13.1     35      88
+
+Percentage of the requests served within a certain time (ms)
+  50%     35
+  66%     41
+  75%     45
+  80%     48
+  90%     53
+  95%     63
+  98%     72
+  99%     78
+ 100%     88 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 10.0.1.1 (be patient)
+Total of 73 requests completed
