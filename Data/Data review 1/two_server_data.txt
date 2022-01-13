@@ -1,0 +1,137 @@
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 10.0.1.1 (be patient)
+
+
+Server Software:        SimpleHTTP/0.6
+Server Hostname:        10.0.1.1
+Server Port:            80
+
+Document Path:          /requestfile.pdf
+Document Length:        198728 bytes
+
+Concurrency Level:      10
+Time taken for tests:   6.652 seconds
+Complete requests:      500
+Failed requests:        0
+Total transferred:      99461500 bytes
+HTML transferred:       99364000 bytes
+Requests per second:    75.17 [#/sec] (mean)
+Time per request:       133.037 [ms] (mean)
+Time per request:       13.304 [ms] (mean, across all concurrent requests)
+Transfer rate:          14601.96 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        8   76 110.2     66    1095
+Processing:     2   51  74.2     30     608
+Waiting:        1   46  70.7     27     607
+Total:         16  127 129.6    102    1128
+
+Percentage of the requests served within a certain time (ms)
+  50%    102
+  66%    114
+  75%    122
+  80%    129
+  90%    217
+  95%    315
+  98%    382
+  99%   1049
+ 100%   1128 (longest request)
+
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 10.0.1.1 (be patient)
+
+
+Server Software:        SimpleHTTP/0.6
+Server Hostname:        10.0.1.1
+Server Port:            80
+
+Document Path:          /requestfile.pdf
+Document Length:        198728 bytes
+
+Concurrency Level:      10
+Time taken for tests:   6.110 seconds
+Complete requests:      500
+Failed requests:        0
+Total transferred:      99461500 bytes
+HTML transferred:       99364000 bytes
+Requests per second:    81.83 [#/sec] (mean)
+Time per request:       122.198 [ms] (mean)
+Time per request:       12.220 [ms] (mean, across all concurrent requests)
+Transfer rate:          15897.20 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        7   87  78.9     81    1060
+Processing:     1   34  38.5     26     336
+Waiting:        1   31  34.3     24     267
+Total:         17  121  87.4    111    1098
+
+Percentage of the requests served within a certain time (ms)
+  50%    111
+  66%    125
+  75%    133
+  80%    138
+  90%    163
+  95%    178
+  98%    313
+  99%    406
+ 100%   1098 (longest request)
+
+
+
+
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 10.0.1.1 (be patient)
+
+
+Server Software:        SimpleHTTP/0.6
+Server Hostname:        10.0.1.1
+Server Port:            80
+
+Document Path:          /requestfile.pdf
+Document Length:        198728 bytes
+
+Concurrency Level:      10
+Time taken for tests:   6.122 seconds
+Complete requests:      500
+Failed requests:        0
+Total transferred:      99461500 bytes
+HTML transferred:       99364000 bytes
+Requests per second:    81.67 [#/sec] (mean)
+Time per request:       122.443 [ms] (mean)
+Time per request:       12.244 [ms] (mean, across all concurrent requests)
+Transfer rate:          15865.42 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        7   80  65.4     76    1037
+Processing:     1   35  40.0     29     283
+Waiting:        0   31  36.9     25     278
+Total:         19  115  74.6    106    1048
+
+Percentage of the requests served within a certain time (ms)
+  50%    106
+  66%    117
+  75%    125
+  80%    130
+  90%    151
+  95%    173
+  98%    324
+  99%    364
+ 100%   1048 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 10.0.1.1 (be patient)
+Total of 497 requests completed
